@@ -10,5 +10,8 @@ docker exec -it ollama bash
 ```
 
 ```bash
-ollama run phi3
+ollama pull gemma:2b
 ```
+
+<img width="1202" alt="image" src="https://github.com/andreitsev/llm_zoomcamp/assets/122976308/0e86a634-6baf-4974-a141-8e7290a97b42">
+
