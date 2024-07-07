@@ -5,6 +5,10 @@ from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 
 
+# first run https://github.com/andreitsev/llm_zoomcamp/blob/main/hw3/vector_search_with_quardant.ipynb notebook
+# to create ann-index in qdrant and then you can search with this code 
+
+
 class NeuralSearcher:
     def __init__(self, collection_name):
         self.collection_name = collection_name
